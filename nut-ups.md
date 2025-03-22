@@ -154,3 +154,10 @@ case $1 in
 		;;
 esac
 ```
+
+# Install nut Module or webmin
+Repository at:
+https://sourceforge.net/projects/nut-monitor-webmin-module/files/0.2.2/
+
+
+
