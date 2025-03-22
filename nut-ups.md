@@ -57,4 +57,17 @@ maxretry = 3
         override.battery.runtime.low = 300
 
 ```
-
+## upsd.conf
+```
+#        upsd.conf
+LISTEN 127.0.0.1 3493
+```
+## upsd.users
+```
+#        upsd.users
+[admin]
+  password = pass
+  instcmds = ALL
+  actions = SET FSD
+  upsmon primary
+```
