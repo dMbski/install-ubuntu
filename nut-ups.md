@@ -5,10 +5,10 @@ Name      Owner      Mode
 /etc/nut/*  root:nut  0640
 
 ****Configuration
-`
+```
 **nut.conf
 #  nut.conf
 #  MODE=netserver
 MODE=standalone
 
-`
+```
