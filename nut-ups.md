@@ -130,3 +130,27 @@ AT ONBATT * EXECUTE onbatt
 AT ONLINE * EXECUTE onpower
 
 ```
+## upssched-cmd in /usr/bin/
+root:root 0755
+
+```
+case $1 in
+    onbatt)
+    	logger -t upssched-cmd "$message"
+    	;;
+	onbattwarn)
+		# Send a notification mail
+		echo "The UPS has been on battery for awhile"
+		;;
+	ups-back-on-line)
+		# Some generic message
+        echo "The UPS returns on line"
+		;;
+	upsgone)
+		logger -t upssched-cmd "The communication with UPS has been gone for awhile"
+		;;
+	*)
+		logger -t upssched-cmd "Unrecognized command: $1"
+		;;
+esac
+```
