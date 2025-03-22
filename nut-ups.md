@@ -1,13 +1,27 @@
 # Install nut from apt
 ## Checking ups connection and nut 
-lsusb
+** lsusb **
 List USB devices and 
 
 ...
 Bus 002 Device 003: ID 051d:0002 American Power Conversion Uninterruptible Power Supply
 ...
 
-sudo nut-scanner
+** sudo nut-scanner **
+List nut supported devices-ups
+...
+[nutdev1
+        driver = "usbhid-ups"
+        port = "auto"
+        vendorid = "051D"
+        productid = "0002"
+        product = "Back-UPS ES 700G FW:871.O2 .I USB FW:O2"
+        serial = "3B1020X16463"
+        vendor = "APC"
+        bus = "002"
+        device = "003"
+        busport = "005"
+...
 
 ## Checking owner and mode
 Name      Owner      Mode
