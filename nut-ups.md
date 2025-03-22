@@ -2,9 +2,11 @@
 ## Checking ups connection and nut 
 lsusb
 List USB devices and 
-``` ...
+
+...
 Bus 002 Device 003: ID 051d:0002 American Power Conversion Uninterruptible Power Supply
-... ```
+...
+
 sudo nut-scanner
 
 ## Checking owner and mode
