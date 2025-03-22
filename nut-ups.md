@@ -9,6 +9,7 @@ Bus 002 Device 003: ID 051d:0002 American Power Conversion Uninterruptible Power
 
 ### sudo nut-scanner
 List nut supported devices-ups
+```
 ...
 [nutdev1]
         driver = "usbhid-ups"
@@ -23,7 +24,7 @@ List nut supported devices-ups
         busport = "005"
 ...
 
-
+```
 
 ## Checking owner and mode
 Name      Owner      Mode
