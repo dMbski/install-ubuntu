@@ -155,9 +155,13 @@ case $1 in
 esac
 ```
 
-# Install nut Module or webmin
+# Install nut Module for Webmin
 Repository at:
 https://sourceforge.net/projects/nut-monitor-webmin-module/files/0.2.2/
+## configure like bellow
+![Clipboard_03-23-2025_01](https://github.com/user-attachments/assets/01ebee3c-92e6-4607-9d63-67cd994ab10a)
+
+# i to wszystko
 
 
 
