@@ -10,7 +10,7 @@ Bus 002 Device 003: ID 051d:0002 American Power Conversion Uninterruptible Power
 ### sudo nut-scanner
 List nut supported devices-ups
 ...
-[nutdev1
+[nutdev1]
         driver = "usbhid-ups"
         port = "auto"
         vendorid = "051D"
