@@ -18,7 +18,7 @@ List nut supported devices-ups
         vendorid = "051D"
         productid = "0002"
         product = "Back-UPS ES 700G FW:871.O2 .I USB FW:O2"
-        serial = "3B1020X16463"
+        serial = "3B88910X16463"
         vendor = "APC"
         bus = "002"
         device = "003"
