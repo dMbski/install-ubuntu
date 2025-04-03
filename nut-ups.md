@@ -49,6 +49,7 @@ Name      Owner      Mode
 MODE=standalone
 ```
 ## ups.conf
+if one have only one ups hash lines like bellow (too speciffic file could  be problematic, not only when change ups)
 ```
 #  ups.conf
 maxretry = 3
@@ -56,9 +57,9 @@ maxretry = 3
         driver = "usbhid-ups"
         port = "auto"
         vendorid = "051D"
-        productid = "0002"
+#        productid = "0002"
         desc = "Back-UPS ES 700G"
-        vendor = "APC"
+#        vendor = "APC"
         ignorelb
         default.ups.delay.shutdown = 60
         override.battery.charge.low = 30
