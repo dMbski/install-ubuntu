@@ -28,7 +28,13 @@ List nut supported devices-ups
         busport = "005"
 ...
 ```
-
+When nut-scanner is not working, showing broken dependecies look which and make ln to broken files
+ex
+```
+sudo ln -s /usr/lib/x86_64-linux-gnu/libusb-1.0.so.0.4.0 /usr/lib/x86_64-linux-gnu/libusb.so
+sudo ln -s /usr/lib/x86_64-linux-gnu/libupsclient.so.6.0.1 /usr/lib/x86_64-linux-gnu/libupsclient.so
+sudo ln -s /usr/lib/x86_64-linux-gnu/libavahi-client.so.3.2.9 /usr/lib/x86_64-linux-gnu/libavahi-client.so
+```
 ## Checking owner and mode
 ```
 Name      Owner      Mode
