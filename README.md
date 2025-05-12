@@ -1,26 +1,26 @@
 Installation of Ubuntu
 
-#Desktop
+# Desktop
 https://ubuntu.com/download/desktop
 
-#Server
+# Server
 https://ubuntu.com/download/server#manual-install
 
-##Add APT repository
+## Add APT repository
 
-#repository script
+# repository script
 sudo curl -o setup-repos.sh https://raw.githubusercontent.com/webmin/webmin/master/setup-repos.sh
 sudo bash setup-repos.sh
 
-#install webmin from apt
+# install webmin from apt
 sudo apt install --install-recommends webmin -y
 
-#check if is it running
+# check if is it running
 sudo systemctl status webmin
 
 ...connect to http://localhost:10000
 
-#open connectivity to webmin
+# open connectivity to webmin
 sudo ufw allow 10000
 sudo ufw allow https 
 sudo ufw reload
