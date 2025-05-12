@@ -1,10 +1,17 @@
-Installation of Ubuntu
+# Installation of Ubuntu
+
+# Download
 
 ## Desktop
 > https://ubuntu.com/download/desktop
 
 ## Server
 > https://ubuntu.com/download/server#manual-install
+
+# Create boot usb (need >=16GB)
+> https://etcher.balena.io/#download-etcher
+or with
+> https://rufus.ie/
 
 
 # 
