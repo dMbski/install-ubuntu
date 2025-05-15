@@ -1,11 +1,11 @@
 # Installation of Ubuntu
 
-# Download
+## Download
 
-## Desktop
+### Desktop
 > https://ubuntu.com/download/desktop
 
-## Server
+### Server
 > https://ubuntu.com/download/server#manual-install
 
 # Create boot usb (need >=16GB)
