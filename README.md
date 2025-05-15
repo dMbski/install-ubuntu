@@ -34,7 +34,7 @@ sudo bash setup-repos.sh
 ### open connectivity to webmin
 ```
 sudo ufw allow 10000
-sudo ufw allow https 
+sudo ufw allow https > this opens 443 port
 sudo ufw reload
 sudo ufw status
 ```
